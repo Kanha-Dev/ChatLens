@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFBC52702CFF0CB300D5ED2E /* ChatLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC526F2CFF0CB300D5ED2E /* ChatLensApp.swift */; };
+		DFBC52722CFF0CB300D5ED2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC52712CFF0CB300D5ED2E /* ContentView.swift */; };
+		DFBC52742CFF0CB300D5ED2E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC52732CFF0CB300D5ED2E /* Item.swift */; };
+		DFBC52762CFF0CB500D5ED2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBC52752CFF0CB500D5ED2E /* Assets.xcassets */; };
+		DFBC52792CFF0CB500D5ED2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBC52782CFF0CB500D5ED2E /* Preview Assets.xcassets */; };
+		DFBC52832CFF0CB500D5ED2E /* ChatLensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC52822CFF0CB500D5ED2E /* ChatLensTests.swift */; };
+		DFBC528D2CFF0CB500D5ED2E /* ChatLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC528C2CFF0CB500D5ED2E /* ChatLensUITests.swift */; };
+		DFBC528F2CFF0CB500D5ED2E /* ChatLensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC528E2CFF0CB500D5ED2E /* ChatLensUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFBC527F2CFF0CB500D5ED2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBC52642CFF0CB300D5ED2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBC526B2CFF0CB300D5ED2E;
+			remoteInfo = ChatLens;
+		};
+		DFBC52892CFF0CB500D5ED2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBC52642CFF0CB300D5ED2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBC526B2CFF0CB300D5ED2E;
+			remoteInfo = ChatLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFBC526C2CFF0CB300D5ED2E /* ChatLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBC526F2CFF0CB300D5ED2E /* ChatLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLensApp.swift; sourceTree = "<group>"; };
+		DFBC52712CFF0CB300D5ED2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFBC52732CFF0CB300D5ED2E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DFBC52752CFF0CB500D5ED2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBC52782CFF0CB500D5ED2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFBC527E2CFF0CB500D5ED2E /* ChatLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBC52822CFF0CB500D5ED2E /* ChatLensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLensTests.swift; sourceTree = "<group>"; };
+		DFBC52882CFF0CB500D5ED2E /* ChatLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBC528C2CFF0CB500D5ED2E /* ChatLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLensUITests.swift; sourceTree = "<group>"; };
+		DFBC528E2CFF0CB500D5ED2E /* ChatLensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBC52692CFF0CB300D5ED2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC527B2CFF0CB500D5ED2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC52852CFF0CB500D5ED2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFBC52632CFF0CB300D5ED2E = {
+			isa = PBXGroup;
+			children = (
+				DFBC526E2CFF0CB300D5ED2E /* ChatLens */,
+				DFBC52812CFF0CB500D5ED2E /* ChatLensTests */,
+				DFBC528B2CFF0CB500D5ED2E /* ChatLensUITests */,
+				DFBC526D2CFF0CB300D5ED2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBC526D2CFF0CB300D5ED2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC526C2CFF0CB300D5ED2E /* ChatLens.app */,
+				DFBC527E2CFF0CB500D5ED2E /* ChatLensTests.xctest */,
+				DFBC52882CFF0CB500D5ED2E /* ChatLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFBC526E2CFF0CB300D5ED2E /* ChatLens */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC526F2CFF0CB300D5ED2E /* ChatLensApp.swift */,
+				DFBC52712CFF0CB300D5ED2E /* ContentView.swift */,
+				DFBC52732CFF0CB300D5ED2E /* Item.swift */,
+				DFBC52752CFF0CB500D5ED2E /* Assets.xcassets */,
+				DFBC52772CFF0CB500D5ED2E /* Preview Content */,
+			);
+			path = ChatLens;
+			sourceTree = "<group>";
+		};
+		DFBC52772CFF0CB500D5ED2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC52782CFF0CB500D5ED2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFBC52812CFF0CB500D5ED2E /* ChatLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC52822CFF0CB500D5ED2E /* ChatLensTests.swift */,
+			);
+			path = ChatLensTests;
+			sourceTree = "<group>";
+		};
+		DFBC528B2CFF0CB500D5ED2E /* ChatLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC528C2CFF0CB500D5ED2E /* ChatLensUITests.swift */,
+				DFBC528E2CFF0CB500D5ED2E /* ChatLensUITestsLaunchTests.swift */,
+			);
+			path = ChatLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBC526B2CFF0CB300D5ED2E /* ChatLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBC52922CFF0CB500D5ED2E /* Build configuration list for PBXNativeTarget "ChatLens" */;
+			buildPhases = (
+				DFBC52682CFF0CB300D5ED2E /* Sources */,
+				DFBC52692CFF0CB300D5ED2E /* Frameworks */,
+				DFBC526A2CFF0CB300D5ED2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatLens;
+			productName = ChatLens;
+			productReference = DFBC526C2CFF0CB300D5ED2E /* ChatLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBC527D2CFF0CB500D5ED2E /* ChatLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBC52952CFF0CB500D5ED2E /* Build configuration list for PBXNativeTarget "ChatLensTests" */;
+			buildPhases = (
+				DFBC527A2CFF0CB500D5ED2E /* Sources */,
+				DFBC527B2CFF0CB500D5ED2E /* Frameworks */,
+				DFBC527C2CFF0CB500D5ED2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBC52802CFF0CB500D5ED2E /* PBXTargetDependency */,
+			);
+			name = ChatLensTests;
+			productName = ChatLensTests;
+			productReference = DFBC527E2CFF0CB500D5ED2E /* ChatLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFBC52872CFF0CB500D5ED2E /* ChatLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBC52982CFF0CB500D5ED2E /* Build configuration list for PBXNativeTarget "ChatLensUITests" */;
+			buildPhases = (
+				DFBC52842CFF0CB500D5ED2E /* Sources */,
+				DFBC52852CFF0CB500D5ED2E /* Frameworks */,
+				DFBC52862CFF0CB500D5ED2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBC528A2CFF0CB500D5ED2E /* PBXTargetDependency */,
+			);
+			name = ChatLensUITests;
+			productName = ChatLensUITests;
+			productReference = DFBC52882CFF0CB500D5ED2E /* ChatLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBC52642CFF0CB300D5ED2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DFBC526B2CFF0CB300D5ED2E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DFBC527D2CFF0CB500D5ED2E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DFBC526B2CFF0CB300D5ED2E;
+					};
+					DFBC52872CFF0CB500D5ED2E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DFBC526B2CFF0CB300D5ED2E;
+					};
+				};
+			};
+			buildConfigurationList = DFBC52672CFF0CB300D5ED2E /* Build configuration list for PBXProject "ChatLens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFBC52632CFF0CB300D5ED2E;
+			productRefGroup = DFBC526D2CFF0CB300D5ED2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBC526B2CFF0CB300D5ED2E /* ChatLens */,
+				DFBC527D2CFF0CB500D5ED2E /* ChatLensTests */,
+				DFBC52872CFF0CB500D5ED2E /* ChatLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBC526A2CFF0CB300D5ED2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC52792CFF0CB500D5ED2E /* Preview Assets.xcassets in Resources */,
+				DFBC52762CFF0CB500D5ED2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC527C2CFF0CB500D5ED2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC52862CFF0CB500D5ED2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBC52682CFF0CB300D5ED2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC52722CFF0CB300D5ED2E /* ContentView.swift in Sources */,
+				DFBC52742CFF0CB300D5ED2E /* Item.swift in Sources */,
+				DFBC52702CFF0CB300D5ED2E /* ChatLensApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC527A2CFF0CB500D5ED2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC52832CFF0CB500D5ED2E /* ChatLensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC52842CFF0CB500D5ED2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC528F2CFF0CB500D5ED2E /* ChatLensUITestsLaunchTests.swift in Sources */,
+				DFBC528D2CFF0CB500D5ED2E /* ChatLensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBC52802CFF0CB500D5ED2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBC526B2CFF0CB300D5ED2E /* ChatLens */;
+			targetProxy = DFBC527F2CFF0CB500D5ED2E /* PBXContainerItemProxy */;
+		};
+		DFBC528A2CFF0CB500D5ED2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBC526B2CFF0CB300D5ED2E /* ChatLens */;
+			targetProxy = DFBC52892CFF0CB500D5ED2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFBC52902CFF0CB500D5ED2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFBC52912CFF0CB500D5ED2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBC52932CFF0CB500D5ED2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XM8YCHALK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanha.ChatLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBC52942CFF0CB500D5ED2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XM8YCHALK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanha.ChatLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFBC52962CFF0CB500D5ED2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XM8YCHALK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanha.ChatLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatLens";
+			};
+			name = Debug;
+		};
+		DFBC52972CFF0CB500D5ED2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XM8YCHALK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanha.ChatLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatLens";
+			};
+			name = Release;
+		};
+		DFBC52992CFF0CB500D5ED2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XM8YCHALK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanha.ChatLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatLens;
+			};
+			name = Debug;
+		};
+		DFBC529A2CFF0CB500D5ED2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XM8YCHALK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanha.ChatLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBC52672CFF0CB300D5ED2E /* Build configuration list for PBXProject "ChatLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC52902CFF0CB500D5ED2E /* Debug */,
+				DFBC52912CFF0CB500D5ED2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC52922CFF0CB500D5ED2E /* Build configuration list for PBXNativeTarget "ChatLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC52932CFF0CB500D5ED2E /* Debug */,
+				DFBC52942CFF0CB500D5ED2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC52952CFF0CB500D5ED2E /* Build configuration list for PBXNativeTarget "ChatLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC52962CFF0CB500D5ED2E /* Debug */,
+				DFBC52972CFF0CB500D5ED2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC52982CFF0CB500D5ED2E /* Build configuration list for PBXNativeTarget "ChatLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC52992CFF0CB500D5ED2E /* Debug */,
+				DFBC529A2CFF0CB500D5ED2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFBC52642CFF0CB300D5ED2E /* Project object */;
+}
